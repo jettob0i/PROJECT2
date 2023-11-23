@@ -1,0 +1,4 @@
+﻿  main.cpp
+  PROJECT.cpp
+C:\Users\kagez\source\repos\PROJECT\PROJECT\PROJECT.cpp(120,25): error C2065: drawWrapper: необъявленный идентификатор
+  Source.cpp

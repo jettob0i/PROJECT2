@@ -1,0 +1,16 @@
+﻿  PROJECT.cpp
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInit в функции main.
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitDisplayMode в функции main.
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowPosition в функции "public: void __cdecl Game::createNewWindow(void)" (?createNewWindow@Game@@QEAAXXZ).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowSize в функции main.
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMainLoop в функции "public: void __cdecl Game::createNewWindow(void)" (?createNewWindow@Game@@QEAAXXZ).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutCreateWindow в функции "public: void __cdecl Game::createNewWindow(void)" (?createNewWindow@Game@@QEAAXXZ).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutDestroyWindow в функции "public: void __cdecl Game::updateGame(int)" (?updateGame@Game@@QEAAXH@Z).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutPostRedisplay в функции "public: void __cdecl Game::draw(void)" (?draw@Game@@QEAAXXZ).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutSwapBuffers в функции "public: void __cdecl Game::draw(void)" (?draw@Game@@QEAAXXZ).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutGetWindow в функции "public: void __cdecl Game::updateGame(int)" (?updateGame@Game@@QEAAXH@Z).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutDisplayFunc в функции main.
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ glutTimerFunc в функции "public: void __cdecl Game::updateGame(int)" (?updateGame@Game@@QEAAXH@Z).
+PROJECT.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __cdecl Game::init(void)" (?init@Game@@QEAAXXZ) в функции "public: void __cdecl Game::createNewWindow(void)" (?createNewWindow@Game@@QEAAXXZ).
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\lib\x64\glut32.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\kagez\source\repos\PROJECT\x64\Debug\PROJECT.exe : fatal error LNK1120: неразрешенных внешних элементов: 13
